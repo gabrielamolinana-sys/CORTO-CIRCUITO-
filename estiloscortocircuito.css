@@ -1,0 +1,381 @@
+body{
+  margin: 0;
+  background-color: #1e0645;
+  color: #ffffff;
+  font-family: "Syncopate", sans-serif;
+}
+
+.titulo{
+  background-color: #4b146e;
+  text-align: center;
+  font-size: 32px;
+  padding: 18px 16px;
+}
+
+.listadeespera2028 h2{
+  background-color: #4b146e;
+  text-align: center;
+  font-size: 32px;
+  padding: 18px 16px;
+}
+
+.vip h2{
+   background-color: #4b146e;
+  text-align: center;
+  font-size: 32px;
+  padding: 18px 16px;
+}
+
+.artistas h2 {
+  background-color: #4b146e;
+  text-align: center;
+  font-size: 32px;
+  padding: 18px 16px;
+}
+
+h1{
+  margin: 0;
+}
+
+h2{
+  margin: 0;
+}
+
+h3{
+  margin: 0;
+} 
+
+p{
+  margin: 0;
+} 
+
+ul {
+  margin: 0;
+}
+
+img {
+  display: flex;
+  width: 100%;
+}
+
+a {
+  color: #ffffff;
+}
+
+.menuprincipal{
+   background-color: #4b146e;
+  padding-left: 16px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 22px;
+  top: 0;
+}
+
+.menuprincipal ul{
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 44px;
+}
+
+.menuprincipal a{
+    font-size: 17px;
+}
+
+.menusecundario {
+  background-color: #4b146e;
+  padding-left: 16px;
+  padding-top: 22px;
+  padding-bottom: 22px;
+  padding-right: 22px;
+}
+
+.menusecundario ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 24px 44px;
+}
+
+.menusecundario a {
+  font-size: 17px;
+}
+.caja1 {
+  display: flex;
+  flex-direction: column; 
+  align-items: center;
+  gap: 30px;
+  padding: 30px 5%;
+  height: auto;
+}
+.caja1 h1{
+  text-align: center;
+}
+
+.fondo1 {
+  width: 100%;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  background-image: url(Fotos/Fondo\ .jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.fondo2 {
+  width: 100%;
+  padding: 50px 20px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(Fotos/Fondo\ 1.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 8px;
+}
+
+.caja2 {
+  text-align: center;
+  flex: 1;
+  text-align: center;
+  text-align: left;
+}
+
+.caja2 h1 {
+  color: #fff6e0;
+  font-size: 64px;
+}
+
+.Eslogan {
+  color: #fff6e0;
+  font-size: 21px;
+  margin-top: 12px;
+  text-align: center;
+}
+
+.fecha {
+  color: #fff6e0;
+  font-size: 13px;
+  margin-top: 14px;
+  text-align: center;
+}
+
+.caja3 {
+  background-color: rgba(0, 0, 0, 0.85);
+  text-align: center;
+  font-size: 22px;
+  padding: 20px 30px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; 
+  align-items: center;    
+  border-radius: 8px;
+}
+
+.caja4 {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 30px 5% 0;
+}
+
+.caja5 {
+  text-align: center;
+  font-weight: 700;
+  font-size: 0.85;
+  line-height: 1.9;
+}
+
+.historia-foto {
+  width: 40%;
+  height: 220px;
+  background-color: #4b146e;
+}
+
+.columnas1 {
+  display: flex;
+  gap: 30px;
+  width: 75%;
+  padding: 40px 5% 50px;
+}
+.columnas1 p {
+  font-size: 0.7;
+}
+
+.columnas1 a {
+  color: #d9b3ff;
+}
+
+.columnas1 h3 {
+  font-size: 1.1;
+  margin-bottom: 10px;
+}
+
+.recuerdos {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  padding: 30px 5%;
+}
+
+.recuerdos div {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.recuerdos img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px;
+  background-color: #4b146e;
+}
+
+.recuerdos h2 {
+  font-size: 40px;
+  font-weight: 400;
+}
+
+.listadeespera2028 {
+  padding-bottom: 50px;
+}
+
+.caja6 {
+  display: block;
+  background-color: #000000;
+  text-align: center;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 1.6;
+  padding: 60px 30px;
+  width: 70%;
+  margin: 50px auto 0;
+}
+
+.vip div {
+  display: flex;
+  gap: 40px;
+  align-items: start;
+  padding: 50px 5%;
+}
+
+.paquete {
+  border: 3px solid #e8d5f0;
+  border-radius: 50px;
+  padding: 30px 28px 40px;
+}
+
+.paquete h3 {
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 12px;
+  border-bottom: 2px solid #e8d5f0;
+  margin-bottom: 26px;
+}
+
+.paquete p {
+  font-size: 15px;
+  line-height: 1.9;
+  text-align: justify;
+}
+
+.artistas {
+  padding-bottom: 50px;
+}
+
+.aviso {
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+  padding: 40px 5% 20px;
+}
+
+.artistas img {
+  width: 80%;
+  margin: 0 auto;
+  border-radius: 4px;
+}
+
+@media (max-width: 1000px) {
+  .caja1, .caja4 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .columnas1 {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .caja6 {
+    width: 90%;
+  }
+
+  .vip div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    max-width: 520px;
+    margin: 0 auto;
+    box-sizing: border-box;
+  }
+}
+
+@media (max-width: 700px) {
+  .menuprincipal ul,
+  .menusecundario ul {
+    gap: 14px 22px;
+  }
+
+  .menuprincipal a,
+  .menusecundario a {
+    font-size: 13px;
+  }
+
+  .titulo,
+  .listadeespera2028 h2,
+  .vip h2,
+  .artistas h2 {
+    font-size: 22px;
+  }
+
+  .caja2 h1 {
+    font-size: 35px;
+  }
+
+  .Eslogan {
+    font-size: 16px;
+  }
+
+  .caja3 {
+    font-size: 18px;
+  }
+
+  .columnas1, .recuerdos {
+    flex-direction: column;
+  }
+
+  .recuerdos h2 {
+    text-align: center;
+    letter-spacing: 6px;
+    font-size: 29px;
+    order: -1;
+  }
+
+  .caja6 {
+    font-size: 22px;
+    padding: 40px 20px;
+  }
+}
+
+

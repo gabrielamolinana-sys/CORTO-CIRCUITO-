@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Corto Circuito</title>
+    <link rel="stylesheet" href="estiloscortocircuito.css">
+</head>
+<script>
+  function googleTranslateElementInit() {
+    new google.translate.TranslateElement({
+      pageLanguage: 'es',
+      includedLanguages: 'en,es,fr,pt',
+      layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+    }, 'google_translate_element');
+  }
+</script>
+<script src="https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+<body>
+  <nav class="menuprincipal">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="historia.html">Historia</a></li>
+      <li><a href="index.html#recuerdos">Recuerdos</a></li>
+      <li><a href="index.html#listadeespera2028">Lista de espera 2028</a></li>
+      <li><a href="vip.html">VIP</a></li>
+      <li><a href="index.html#artistas">Artistas</a></li>
+    </ul>
+    <div id="google_translate_element"></div>
+  </nav>
+
+  <header class="caja1" id="inicio">
+    <article class="fondo1">
+    <div class="caja2">
+      <h1>Corto circuito</h1>
+      <p class="Eslogan">Tres sonidos. Un solo voltaje.</p>
+      <p class="fecha">20 July, 2027<br>Medellín, Colombia, City Hall El Rodeo</p>
+    </div>
+    </article>
+     <article class="fondo2">
+    <a class="caja3" href="#listadeespera2028">
+      Lista de espera de 2028<br>¡Inscríbete<br>aquí!
+    </a>
+    </article>
+  </header>
+
+<div class="caja3">
+    <p style="font-size: 1rem; margin-bottom: 8px;">TIEMPO RESTANTE PARA EL FESTIVAL</p>
+    <div id="cuenta-regresiva" style="font-weight: bold; letter-spacing: 2px;">Cargando...</div>
+  </div>
+  <nav class="menusecundario">
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="historia.html">Historia</a></li>
+      <li><a href="index.html#recuerdos">Recuerdos</a></li>
+      <li><a href="index.html#listadeespera2028">Lista de espera 2028</a></li>
+      <li><a href="vip.html">VIP</a></li>
+      <li><a href="index.html#artistas">Artistas</a></li>
+    </ul>
+  </nav>
+
+  <section class="recuerdos" id="recuerdos">
+    <div>
+      <img src="Fotos/recuerdos1.jpeg" alt="Público">
+      <img src="Fotos/recuerdos2.jpeg" alt="DJ">
+      <img src="Fotos/recuerdos3.jpeg" alt="Escenario">
+    </div>
+    <h2>R <br>e <br>c <br>u <br>e <br> r <br> d <br> o <br> s <br> </h2>
+    <div class="recuerdo1">
+      <img src="Fotos/recuerdos4.jpeg" alt="Asistente">
+      <img src="Fotos/recuerdos5.jpeg" alt="Escenario">
+      <img src="Fotos/recuerdos6.jpeg" alt="Banda">
+    </div>
+  </section>
+
+  <section class="listadeespera2028" id="listadeespera2028">
+    <h2>Lista de espera 2028</h2>
+
+    <a class="caja6" href="#">
+      No pierdas esta oportunidad<br>(link)
+    </a>
+  </section>
+
+  <section class="artistas" id="artistas">
+    <h2>Artistas</h2>
+    <p class="aviso">Muy pronto anunciaremos el line up de Cortocircuito 2027.</p>
+    <img src="Fotos/Flayerr.png" alt="Flayer con los artistas">
+  </section>
+  <script class="cuentaregresiva">
+    const fechaObjetivo = new Date("2028-08-25T00:00:00").getTime();
+
+    const actualizarContador = () => {
+      const ahora = new Date().getTime();
+      const diferencia = fechaObjetivo - ahora;
+
+      if (diferencia <= 0) {
+        document.getElementById("cuenta-regresiva").innerText = "¡EL FESTIVAL HA COMENZADO!";
+        return;
+      }
+
+      const dias = Math.floor(diferencia / (1000 * 60 * 60 * 24));
+      const horas = Math.floor((diferencia % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+      const minutos = Math.floor((diferencia % (1000 * 60 * 60)) / (1000 * 60));
+      const segundos = Math.floor((diferencia % (1000 * 60)) / 1000);
+
+      document.getElementById("cuenta-regresiva").innerText = 
+        `${dias}d ${horas}h ${minutos}m ${segundos}s`;
+    };
+
+    setInterval(actualizarContador, 1000);
+    actualizarContador();
+  </script>
+</body>
+</html>
